@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaRedo } from "react-icons/fa";
-// import { RiRestartLine } from "react-icons/ri";
 
 const Header = ({ moves, bestScore, handleRestart }) => {
   return (

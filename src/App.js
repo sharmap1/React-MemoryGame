@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Card from "./components/Card/card";
+import Card from "./components/Card";
 import Header from "./components/Header";
 import uniqueCardsArray from "./data.js";
 import Finish from "./components/Finish";
