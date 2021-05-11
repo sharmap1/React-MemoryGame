@@ -1,8 +1,8 @@
 import React from "react";
 import classnames from "classnames";
 import backpic from "../../images/back.jpg";
-// import "./style.css";
-import "./card.scss";
+import "./style.css";
+// import "./card.scss";
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
   const handleClick = () => {
