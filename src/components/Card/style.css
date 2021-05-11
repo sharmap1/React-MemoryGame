@@ -33,6 +33,6 @@
 }
 
 .is-inactive {
-  visibility: hidden;
+  /* visibility: hidden; */
   opacity: 0;
 }

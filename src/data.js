@@ -21,30 +21,30 @@ const uniqueCardsArray = [
     type: "bird6",
     image: IMG3,
   },
-  {
-    type: "bird7",
-    image: IMG4,
-  },
-  {
-    type: "bird8",
-    image: IMG5,
-  },
-  {
-    type: "bird2",
-    image: IMG6,
-  },
-  {
-    type: "bird4",
-    image: IMG7,
-  },
-  {
-    type: "bird9",
-    image: IMG8,
-  },
-  {
-    type: "bird1",
-    image: IMG9,
-  },
+  // {
+  //   type: "bird7",
+  //   image: IMG4,
+  // },
+  // {
+  //   type: "bird8",
+  //   image: IMG5,
+  // },
+  // {
+  //   type: "bird2",
+  //   image: IMG6,
+  // },
+  // {
+  //   type: "bird4",
+  //   image: IMG7,
+  // },
+  // {
+  //   type: "bird9",
+  //   image: IMG8,
+  // },
+  // {
+  //   type: "bird1",
+  //   image: IMG9,
+  // },
 ];
 
 export default uniqueCardsArray;
