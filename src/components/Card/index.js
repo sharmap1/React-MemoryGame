@@ -1,8 +1,8 @@
 import React from "react";
 import classnames from "classnames";
 import backpic from "../../images/back.jpg";
-// import "./style.css";
-import "./card.scss";
+import "./style.css";
+// import "./card.scss";
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
   const handleClick = () => {
@@ -17,10 +17,10 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
       onClick={handleClick}
     >
       <div className="card-face card-font-face">
-        <img src={backpic} alt="backpic" />
+        <img src={backpic} alt="backpic" className="img" />
       </div>
       <div className="card-face card-back-face">
-        <img src={card.image} alt="frontpic" />
+        <img src={card.image} alt="frontpic" className="img" />
       </div>
     </div>
   );
