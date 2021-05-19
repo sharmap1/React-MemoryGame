@@ -6,14 +6,31 @@ import Header from "./components/Header";
 import uniqueCardsArray from "./data.js";
 import Finish from "./components/Finish";
 
+// function shuffleCards(array) {
+//   const length = array.length;
+//   for (let i = length; i > 0; i--) {
+//     const randomIndex = Math.floor(Math.random() * i);
+//     const currentIndex = i - 1;
+//     const temp = array[currentIndex];
+//     array[currentIndex] = array[randomIndex];
+//     array[randomIndex] = temp;
+//   }
+//   return array;
+// }
+function swap(array, i, j) {
+  const temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+}
 function shuffleCards(array) {
   const length = array.length;
   for (let i = length; i > 0; i--) {
     const randomIndex = Math.floor(Math.random() * i);
     const currentIndex = i - 1;
-    const temp = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temp;
+    swap(array, currentIndex, randomIndex);
+    // const temp = array[currentIndex];
+    // array[currentIndex] = array[randomIndex];
+    // array[randomIndex] = temp;
   }
   return array;
 }
