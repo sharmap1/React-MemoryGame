@@ -1,6 +1,6 @@
 # Memory Game -React Hooks
 
-The card memory game is a simple game to test the player’s memory. In a deck of paired cards, the player needs to select a matching pair in consecutive turns. The player wins the game when all matching pairs are selected.
+The card memory game is a simple game to test the player’s memory. In a deck of paired cards, the player needs to select a matching pair in consecutive turns. The player wins the game when all matching pairs are selected.In the end the game also provides a dialog box with all the game information best score, moves and functionality to restart the game.
 
 ## Youtube link : https://www.youtube.com/watch?v=zFzPHa_WJLw
 
